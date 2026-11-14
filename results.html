@@ -21,31 +21,31 @@
 
 <h2>Oś Wykształcenia: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
+    <img id="img-equality" src="value_images/ksztalcony.png" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/markets.svg" height="128pt"/>
+    <img id="img-wealth" src="value_images/nieksztalcony.png" height="128pt"/>
 </div>
 <h2>Oś Walki: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/nation.svg" height="128pt"/>
+    <img id="img-might" src="value_images/walczacy.png" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
+    <img id="img-peace" src="value_images/niewalczacy.png" height="128pt"/>
 </div>
 <h2>Oś Obycia: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
+    <img id="img-liberty" src="value_images/zamkowy.png" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <img id="img-authority" src="value_images/wiejski.png" height="128pt"/>
 </div>
 <h2>Oś Podejścia do Życia: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <img id="img-tradition" src="value_images/rubarum.png" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <img id="img-progress" src="value_images/sanctum.png" height="128pt"/>
 </div>
 <h2>Twój Archetyp: <span class="weight-300" id="ideology-label"></span></h2>
 <p>To Twój sugerowany archetyp postaci wyliczony na podstawie Twoich odpowiedzi.</p>
@@ -53,7 +53,6 @@
 <hr/>
 <img src="" id="banner">
 
-<!-- PRZYCISK DO WYSYŁANIA WYNIKÓW DO GOOGLE FORMS -->
 <br><br>
 <button class="button" id="send-results-btn" style="background-color: #2e7d32; color: white; font-size: 20pt; padding: 15px; margin-bottom: 20px;">WYŚLIJ WYNIKI DO MISTRZÓW GRY</button>
 <br>
@@ -81,7 +80,6 @@
         }
     }
 
-    // Usunięcie starych etykiet (nie potrzebujemy ich w bretońskiej wersji na paskach)
     econArray = ["","","","","","",""]
     diplArray = ["","","","","","",""]
     govtArray = ["","","","","","",""]
@@ -129,7 +127,6 @@
     }
     document.getElementById("ideology-label").innerHTML = ideology
 
-    // FUNKCJA GENERUJĄCA LINK DO GOOGLE FORMS
     document.getElementById("send-results-btn").onclick = function() {
         var formBaseUrl = "https://docs.google.com/forms/d/e/1FAIpQLScdzgu6I7JngeUSOcuGYNipzjc82EfppzB30aO8ll7y9HMaAA/viewform?usp=pp_url";
         var resultText = "Archetyp: " + ideology + 
