@@ -1,5 +1,5 @@
 questions = [
-    // OŚ 1: WYKSZTAŁCENIE (Kształcony +econ / Niekształcony -econ)
+    // OŚ 1: WYKSZTAŁCENIE (Kształcony / Niekształcony)
     {
         "question": "Jeśli w wiosce lub na zamku trzeba szybko policzyć worki z ziarnem dla poborcy, to właśnie do mnie się z tym idzie.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
@@ -30,44 +30,44 @@ questions = [
     },
     {
         "question": "Gdy potrzebuję rady, idę do najstarszych we wsi, by posłuchać ludowych mądrości, a nie szukam odpowiedzi u wyuczonych skrybów.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -10 }
+        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
-    // OŚ 2: WALKA (Walczący +dipl / Niewalczący -dipl)
+    // OŚ 2: WALKA (Walczący / Niewalczący)
     {
         "question": "Gdy do wsi zbliża się banda zwierzoludzi lub głodnych wilków, chwytam za broń i staję w szeregu, zamiast chować się w oborze.",
-        "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 0 }
+        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
     },
     {
         "question": "Rozlew krwi to sprawa Rycerzy i ich zbrojnych; ja jestem prostym chłopem od ciężkiej pracy i dbania o to, by inni mieli co jeść.",
-        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
+        "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 0 }
     },
     {
         "question": "Znam się na naciąganiu łuku, rąbaniu mieczem lub tropieniu zwierzyny znacznie lepiej niż zwykły rolnik.",
-        "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 0 }
-    },
-    {
-        "question": "Widok rozprutych brzuchów, otwartych ran i trupów napawa mnie obrzydzeniem i sprawia, że drżą mi kolana.",
         "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Mam za sobą regularną służbę w straży, zamkowym garnizonie lub jako pachołek w poczcie zbrojnym mojego Pana.",
-        "effect": { "econ": 0, "dipl": 10, "govt": 10, "scty": 0 }
-    },
-    {
-        "question": "Zamiast wdawać się w bójkę na noże w karczmie, wolę schować dumę do kieszeni i postawić krewkim chłopom po kolejce piwa.",
-        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 10 }
-    },
-    {
-        "question": "Uważam, że każdy chłop w Bretonii powinien umieć obronić swój dobytek siłą i zabić, jeśli zajdzie taka ostateczna potrzeba.",
+        "question": "Widok rozprutych brzuchów, otwartych ran i trupów napawa mnie obrzydzeniem i sprawia, że drżą mi kolana.",
         "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 0 }
     },
     {
+        "question": "Mam za sobą regularną służbę w straży, zamkowym garnizonie lub jako pachołek w poczcie zbrojnym mojego Pana.",
+        "effect": { "econ": 0, "dipl": -10, "govt": 10, "scty": 0 }
+    },
+    {
+        "question": "Zamiast wdawać się w bójkę na noże w karczmie, wolę schować dumę do kieszeni i postawić krewkim chłopom po kolejce piwa.",
+        "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": -10 }
+    },
+    {
+        "question": "Uważam, że każdy chłop w Bretonii powinien umieć obronić swój dobytek siłą i zabić, jeśli zajdzie taka ostateczna potrzeba.",
+        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
+    },
+    {
         "question": "Mój fach w rękach jest zbyt cenny, bym ryzykował utratę palców lub życia w jakiejś głupiej, zbrojnej potyczce.",
-        "effect": { "econ": 10, "dipl": -10, "govt": 0, "scty": 0 }
+        "effect": { "econ": 10, "dipl": 10, "govt": 0, "scty": 0 }
     },
 
-    // OŚ 3: OBYCIE (Zamkowy +govt / Wiejski -govt)
+    // OŚ 3: OBYCIE (Zamkowy / Wiejski)
     {
         "question": "Wiem, jak głęboko się ukłonić i jakich słów użyć, by nie rozgniewać przejeżdżającego w pobliżu Rycerza.",
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
@@ -101,37 +101,37 @@ questions = [
         "effect": { "econ": -10, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
-    // OŚ 4: PODEJŚCIE DO ŻYCIA (Rubarum +scty / Sanctum -scty)
+    // OŚ 4: PODEJŚCIE DO ŻYCIA (Rubarum / Sanctum)
     {
         "question": "Życie chłopa jest krótkie i parszywe, dlatego trzeba pić, tańczyć i bawić się przy każdej możliwej okazji, żyjąc chwilą.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     {
         "question": "Każdego dnia gorliwie modlę się do Bóstw, a widome znaki mojej wiary to mój najważniejszy dobytek.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     {
         "question": "Nawet po największej tragedii uważam, że \"co się stało, to się nie odstanie\" i po prostu wyciągam z sytuacji to, co najwygodniejsze.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     {
         "question": "Wolałbym oddać swój ostatni miedziak jako ofiarę dla wędrownego kapłana lub pielgrzyma, niż wydać go na antałek wina w karczmie.",
-        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
-    },
-    {
-        "question": "Zgadzam się z powiedzeniem, że wolę dostać \"rybę\" niż \"wędkę\" – jestem trochę leniwy, ale za to wesoły i towarzyski.",
-        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 10 }
-    },
-    {
-        "question": "Kiedy przychodzi susza, choroba lub głód, wierzę, że to gniew Bogów i jedynym ratunkiem jest surowa pokuta.",
-        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": -10 }
-    },
-    {
-        "question": "W karczmie zawsze jestem pierwszy do śpiewu i tańca, bo uważam, że smutek to marnowanie cennego czasu.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     {
-        "question": "Pielgrzymki, wierność Bóstwom i cicha, wytrwała modlitwa uszlachetniają chłopa i dają mu nadzieję na lepszy los po śmierci.",
+        "question": "Zgadzam się z powiedzeniem, że wolę dostać \"rybę\" niż \"wędkę\" – jestem trochę leniwy, ale za to wesoły i towarzyski.",
+        "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -10 }
+    },
+    {
+        "question": "Kiedy przychodzi susza, choroba lub głód, wierzę, że to gniew Bogów i jedynym ratunkiem jest surowa pokuta.",
+        "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 10 }
+    },
+    {
+        "question": "W karczmie zawsze jestem pierwszy do śpiewu i tańca, bo uważam, że smutek to marnowanie cennego czasu.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
+    },
+    {
+        "question": "Pielgrzymki, wierność Bóstwom i cicha, wytrwała modlitwa uszlachetniają chłopa i dają mu nadzieję na lepszy los po śmierci.",
+        "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     }
 ];
