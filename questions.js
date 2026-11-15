@@ -1,7 +1,7 @@
 questions = [
     // OŚ 1: WYKSZTAŁCENIE (Kształcony / Niekształcony)
     {
-        "question": "Jeśli w wiosce lub na zamku trzeba szybko policzyć worki z ziarnem dla poborcy, to właśnie do mnie się z tym idzie.",
+        "question": "Nie wierzę w chłopskie bajania o tym, że tuż za naszym lasem kończy się świat; znam nazwy okolicznych osad i potrafię wskazać drogę do miasta.",
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     {
@@ -21,7 +21,7 @@ questions = [
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Mój jedyny fach to ten, którego nauczył mnie ojciec w polu i zagrodzie – orać, zbierać i jakoś przetrwać do przednówka.",
+        "question": "Praktyczne umiejętności, takie jak oranie pola, dojenie krów czy pielenie zagonów, są mi znacznie bliższe niż jakikolwiek wyspecjalizowany warsztat.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     {
@@ -29,7 +29,7 @@ questions = [
         "effect": { "econ": 10, "dipl": 0, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Gdy potrzebuję rady, idę do najstarszych we wsi, by posłuchać ludowych mądrości, a nie szukam odpowiedzi u wyuczonych skrybów.",
+        "question": "Kiedy coś mi dolega wolę pójść do mądrej baby po amulet i napar, niż oddać się w ręce miastowego cyrulika.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": 10 }
     },
 
@@ -39,11 +39,11 @@ questions = [
         "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Rozlew krwi to sprawa Rycerzy i ich zbrojnych; ja jestem prostym chłopem od ciężkiej pracy i dbania o to, by inni mieli co jeść.",
+        "question": "Rozlew krwi to sprawa Rycerzy i ich zbrojnych; ja mam lepsze rzeczy do roboty niż nadstawianie karku i szukanie wczesnej śmierci.",
         "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Znam się na naciąganiu łuku, rąbaniu mieczem lub tropieniu zwierzyny znacznie lepiej niż zwykły rolnik.",
+        "question": "Potrafię celnie szyć z łuku i skradać się w leśnym gąszczu znacznie lepiej niż pierwszy lepszy rolnik.",
         "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
     },
     {
@@ -55,7 +55,7 @@ questions = [
         "effect": { "econ": 0, "dipl": -10, "govt": 10, "scty": 0 }
     },
     {
-        "question": "Zamiast wdawać się w bójkę na noże w karczmie, wolę schować dumę do kieszeni i postawić krewkim chłopom po kolejce piwa.",
+        "question": "Kiedy w karczmie wybucha bójka, zaczynają latać kufle i błyszczą noże, jestem pierwszą osobą, która czmycha pod stół albo wymyka się tylnym wyjściem.",
         "effect": { "econ": 0, "dipl": 10, "govt": 0, "scty": -10 }
     },
     {
@@ -63,8 +63,8 @@ questions = [
         "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 0 }
     },
     {
-        "question": "Mój fach w rękach jest zbyt cenny, bym ryzykował utratę palców lub życia w jakiejś głupiej, zbrojnej potyczce.",
-        "effect": { "econ": 10, "dipl": 10, "govt": 0, "scty": 0 }
+        "question": "Kiedy nasze kapliczki lub relikwie są zagrożone, zawsze chwycę za broń i stanę w ich obronie!",
+        "effect": { "econ": 0, "dipl": -10, "govt": 0, "scty": 10 }
     },
 
     // OŚ 3: OBYCIE (Zamkowy / Wiejski)
@@ -73,7 +73,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
     {
-        "question": "Na widok Pana w lśniącej zbroi najchętniej padam twarzą w błoto i modlę się, by jego koń po mnie nie przejechał.",
+        "question": "Rycerze budzą we mnie taki strach, że na ich widok od razu padam twarzą w błoto i modlę się aby nie ściągnąć na siebie pańskiego gniewu.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
     {
@@ -81,7 +81,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
     {
-        "question": "Moje życie to błoto, zapach obory i nieprana tunika – i nie wstydzę się tego, bo tacy są wszyscy chłopi z mojej wioski.",
+        "question": "Moje życie to błoto, zapach obory i nieprana tunika – i nie wstydzę się tego, wszyscy w mojej wiosce tak żyjemy.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 0 }
     },
     {
@@ -97,7 +97,7 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 10, "scty": 0 }
     },
     {
-        "question": "Nigdy nie opuściłem swoich rodzinnych stron, a obcy budzą we mnie ogromną nieufność i podejrzliwość.",
+        "question": "Ufam wyłącznie tym, których znam od zawsze; każda nowa twarz budzi we mnie podejrzliwość.",
         "effect": { "econ": -10, "dipl": 0, "govt": -10, "scty": 0 }
     },
 
@@ -107,23 +107,23 @@ questions = [
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     {
-        "question": "Każdego dnia gorliwie modlę się do Bóstw, a widome znaki mojej wiary to mój najważniejszy dobytek.",
+        "question": "Każdego dnia modlę się do Bóstw, a widome znaki mojej wiary to mój najważniejszy dobytek.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     {
-        "question": "Nawet po największej tragedii uważam, że \"co się stało, to się nie odstanie\" i po prostu wyciągam z sytuacji to, co najwygodniejsze.",
+        "question": "Nawet po największej tragedii uważam, że \"co się stało, to się nie odstanie\" i po prostu wyciągam z sytuacji tyle, ile mogę.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": -10 }
     },
     {
-        "question": "Wolałbym oddać swój ostatni miedziak jako ofiarę dla wędrownego kapłana lub pielgrzyma, niż wydać go na antałek wina w karczmie.",
+        "question": "Po ciężkim dniu w polu moje kroki zawsze kierują się najpierw pod kapliczkę, a hałaśliwą karczmę najchętniej omijam szerokim łukiem.",
         "effect": { "econ": 0, "dipl": 0, "govt": 0, "scty": 10 }
     },
     {
-        "question": "Zgadzam się z powiedzeniem, że wolę dostać \"rybę\" niż \"wędkę\" – jestem trochę leniwy, ale za to wesoły i towarzyski.",
+        "question": "Zgadzam się z powiedzeniem, że wolę dostać \"rybę\" niż \"wędkę\" – jestem trochę leniwy, ale życie nie jest od tego, żeby się przepracowywać.",
         "effect": { "econ": -10, "dipl": 0, "govt": 0, "scty": -10 }
     },
     {
-        "question": "Kiedy przychodzi susza, choroba lub głód, wierzę, że to gniew Bogów i jedynym ratunkiem jest surowa pokuta.",
+        "question": "Kiedy przychodzi susza, choroba lub głód, wierzę, że to gniew Bogów i jedynym ratunkiem są modły i surowa pokuta.",
         "effect": { "econ": 0, "dipl": 0, "govt": -10, "scty": 10 }
     },
     {
